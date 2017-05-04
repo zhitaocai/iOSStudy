@@ -13,6 +13,9 @@
 		6DF0ED4C1EBB21F8002D5373 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6DF0ED4A1EBB21F8002D5373 /* Main.storyboard */; };
 		6DF0ED4E1EBB21F8002D5373 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6DF0ED4D1EBB21F8002D5373 /* Assets.xcassets */; };
 		6DF0ED511EBB21F8002D5373 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6DF0ED4F1EBB21F8002D5373 /* LaunchScreen.storyboard */; };
+		6DF0ED5A1EBB22AE002D5373 /* MRCSingleInstance.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DF0ED591EBB22AE002D5373 /* MRCSingleInstance.m */; };
+		6DF0ED5D1EBB22BF002D5373 /* ARCSingleInstance.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DF0ED5C1EBB22BF002D5373 /* ARCSingleInstance.m */; };
+		6DF0ED601EBB22E3002D5373 /* MacroSingleInstance.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DF0ED5F1EBB22E3002D5373 /* MacroSingleInstance.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,12 @@
 		6DF0ED4D1EBB21F8002D5373 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6DF0ED501EBB21F8002D5373 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6DF0ED521EBB21F8002D5373 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6DF0ED581EBB22AE002D5373 /* MRCSingleInstance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MRCSingleInstance.h; sourceTree = "<group>"; };
+		6DF0ED591EBB22AE002D5373 /* MRCSingleInstance.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MRCSingleInstance.m; sourceTree = "<group>"; };
+		6DF0ED5B1EBB22BF002D5373 /* ARCSingleInstance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARCSingleInstance.h; sourceTree = "<group>"; };
+		6DF0ED5C1EBB22BF002D5373 /* ARCSingleInstance.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ARCSingleInstance.m; sourceTree = "<group>"; };
+		6DF0ED5E1EBB22E3002D5373 /* MacroSingleInstance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MacroSingleInstance.h; sourceTree = "<group>"; };
+		6DF0ED5F1EBB22E3002D5373 /* MacroSingleInstance.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MacroSingleInstance.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +76,12 @@
 				6DF0ED4F1EBB21F8002D5373 /* LaunchScreen.storyboard */,
 				6DF0ED521EBB21F8002D5373 /* Info.plist */,
 				6DF0ED411EBB21F7002D5373 /* Supporting Files */,
+				6DF0ED581EBB22AE002D5373 /* MRCSingleInstance.h */,
+				6DF0ED591EBB22AE002D5373 /* MRCSingleInstance.m */,
+				6DF0ED5B1EBB22BF002D5373 /* ARCSingleInstance.h */,
+				6DF0ED5C1EBB22BF002D5373 /* ARCSingleInstance.m */,
+				6DF0ED5E1EBB22E3002D5373 /* MacroSingleInstance.h */,
+				6DF0ED5F1EBB22E3002D5373 /* MacroSingleInstance.m */,
 			);
 			path = SingleInstance;
 			sourceTree = "<group>";
@@ -151,8 +166,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				6DF0ED491EBB21F7002D5373 /* ViewController.m in Sources */,
+				6DF0ED601EBB22E3002D5373 /* MacroSingleInstance.m in Sources */,
 				6DF0ED461EBB21F7002D5373 /* AppDelegate.m in Sources */,
 				6DF0ED431EBB21F7002D5373 /* main.m in Sources */,
+				6DF0ED5A1EBB22AE002D5373 /* MRCSingleInstance.m in Sources */,
+				6DF0ED5D1EBB22BF002D5373 /* ARCSingleInstance.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
