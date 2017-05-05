@@ -6,6 +6,7 @@
 * http://www.jianshu.com/p/c9f03e5b6b69
 * http://www.jianshu.com/p/e5c4d280354d
 * http://www.cnblogs.com/CoderAlex/p/5232214.html
+* http://blog.csdn.net/reylen/article/details/50667644
 
 ## 1. 前言
 
