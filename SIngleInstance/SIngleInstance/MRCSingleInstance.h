@@ -10,4 +10,6 @@
 
 @interface MRCSingleInstance : NSObject
 
++ (instancetype) sharedMRCSingleInstance;
+
 @end

@@ -7,18 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6D8AECE41EBC2F0000B94003 /* MacroMRCSingleInstance.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D8AECE31EBC2F0000B94003 /* MacroMRCSingleInstance.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		6DF0ED431EBB21F7002D5373 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DF0ED421EBB21F7002D5373 /* main.m */; };
 		6DF0ED461EBB21F7002D5373 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DF0ED451EBB21F7002D5373 /* AppDelegate.m */; };
 		6DF0ED491EBB21F7002D5373 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DF0ED481EBB21F7002D5373 /* ViewController.m */; };
 		6DF0ED4C1EBB21F8002D5373 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6DF0ED4A1EBB21F8002D5373 /* Main.storyboard */; };
 		6DF0ED4E1EBB21F8002D5373 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6DF0ED4D1EBB21F8002D5373 /* Assets.xcassets */; };
 		6DF0ED511EBB21F8002D5373 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6DF0ED4F1EBB21F8002D5373 /* LaunchScreen.storyboard */; };
-		6DF0ED5A1EBB22AE002D5373 /* MRCSingleInstance.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DF0ED591EBB22AE002D5373 /* MRCSingleInstance.m */; };
-		6DF0ED5D1EBB22BF002D5373 /* ARCSingleInstance.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DF0ED5C1EBB22BF002D5373 /* ARCSingleInstance.m */; };
-		6DF0ED601EBB22E3002D5373 /* MacroSingleInstance.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DF0ED5F1EBB22E3002D5373 /* MacroSingleInstance.m */; };
+		6DF0ED5A1EBB22AE002D5373 /* MRCSingleInstance.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DF0ED591EBB22AE002D5373 /* MRCSingleInstance.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		6DF0ED5D1EBB22BF002D5373 /* ARCSingleInstance.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DF0ED5C1EBB22BF002D5373 /* ARCSingleInstance.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		6DF0ED601EBB22E3002D5373 /* MacroARCSingleInstance.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DF0ED5F1EBB22E3002D5373 /* MacroARCSingleInstance.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		6DF0ED621EBB3517002D5373 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 6DF0ED611EBB3517002D5373 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6D8AECE21EBC2F0000B94003 /* MacroMRCSingleInstance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MacroMRCSingleInstance.h; sourceTree = "<group>"; };
+		6D8AECE31EBC2F0000B94003 /* MacroMRCSingleInstance.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MacroMRCSingleInstance.m; sourceTree = "<group>"; };
 		6DF0ED3E1EBB21F7002D5373 /* SingleInstance.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SingleInstance.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6DF0ED421EBB21F7002D5373 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6DF0ED441EBB21F7002D5373 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -33,8 +37,10 @@
 		6DF0ED591EBB22AE002D5373 /* MRCSingleInstance.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MRCSingleInstance.m; sourceTree = "<group>"; };
 		6DF0ED5B1EBB22BF002D5373 /* ARCSingleInstance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARCSingleInstance.h; sourceTree = "<group>"; };
 		6DF0ED5C1EBB22BF002D5373 /* ARCSingleInstance.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ARCSingleInstance.m; sourceTree = "<group>"; };
-		6DF0ED5E1EBB22E3002D5373 /* MacroSingleInstance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MacroSingleInstance.h; sourceTree = "<group>"; };
-		6DF0ED5F1EBB22E3002D5373 /* MacroSingleInstance.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MacroSingleInstance.m; sourceTree = "<group>"; };
+		6DF0ED5E1EBB22E3002D5373 /* MacroARCSingleInstance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MacroARCSingleInstance.h; sourceTree = "<group>"; };
+		6DF0ED5F1EBB22E3002D5373 /* MacroARCSingleInstance.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MacroARCSingleInstance.m; sourceTree = "<group>"; };
+		6DF0ED611EBB3517002D5373 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		6DF0ED631EBB3A06002D5373 /* Macro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Macro.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +57,7 @@
 		6DF0ED351EBB21F7002D5373 = {
 			isa = PBXGroup;
 			children = (
+				6DF0ED611EBB3517002D5373 /* README.md */,
 				6DF0ED401EBB21F7002D5373 /* SingleInstance */,
 				6DF0ED3F1EBB21F7002D5373 /* Products */,
 			);
@@ -80,8 +87,11 @@
 				6DF0ED591EBB22AE002D5373 /* MRCSingleInstance.m */,
 				6DF0ED5B1EBB22BF002D5373 /* ARCSingleInstance.h */,
 				6DF0ED5C1EBB22BF002D5373 /* ARCSingleInstance.m */,
-				6DF0ED5E1EBB22E3002D5373 /* MacroSingleInstance.h */,
-				6DF0ED5F1EBB22E3002D5373 /* MacroSingleInstance.m */,
+				6DF0ED5E1EBB22E3002D5373 /* MacroARCSingleInstance.h */,
+				6DF0ED5F1EBB22E3002D5373 /* MacroARCSingleInstance.m */,
+				6D8AECE21EBC2F0000B94003 /* MacroMRCSingleInstance.h */,
+				6D8AECE31EBC2F0000B94003 /* MacroMRCSingleInstance.m */,
+				6DF0ED631EBB3A06002D5373 /* Macro.h */,
 			);
 			path = SingleInstance;
 			sourceTree = "<group>";
@@ -125,6 +135,7 @@
 				TargetAttributes = {
 					6DF0ED3D1EBB21F7002D5373 = {
 						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = RUDNP34A78;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -166,8 +177,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				6DF0ED491EBB21F7002D5373 /* ViewController.m in Sources */,
-				6DF0ED601EBB22E3002D5373 /* MacroSingleInstance.m in Sources */,
+				6DF0ED601EBB22E3002D5373 /* MacroARCSingleInstance.m in Sources */,
+				6D8AECE41EBC2F0000B94003 /* MacroMRCSingleInstance.m in Sources */,
 				6DF0ED461EBB21F7002D5373 /* AppDelegate.m in Sources */,
+				6DF0ED621EBB3517002D5373 /* README.md in Sources */,
 				6DF0ED431EBB21F7002D5373 /* main.m in Sources */,
 				6DF0ED5A1EBB22AE002D5373 /* MRCSingleInstance.m in Sources */,
 				6DF0ED5D1EBB22BF002D5373 /* ARCSingleInstance.m in Sources */,
@@ -290,7 +303,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				DEVELOPMENT_TEAM = RUDNP34A78;
 				INFOPLIST_FILE = SingleInstance/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = io.github.zhitaocai.ios.SingleInstance;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -301,7 +317,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				DEVELOPMENT_TEAM = RUDNP34A78;
 				INFOPLIST_FILE = SingleInstance/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = io.github.zhitaocai.ios.SingleInstance;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -327,6 +346,7 @@
 				6DF0ED571EBB21F8002D5373 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
