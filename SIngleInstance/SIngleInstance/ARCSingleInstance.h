@@ -10,6 +10,6 @@
 
 @interface ARCSingleInstance : NSObject
 
-+ (instancetype) sharedARCSingleInstance;
++ (instancetype)sharedARCSingleInstance;
 
 @end

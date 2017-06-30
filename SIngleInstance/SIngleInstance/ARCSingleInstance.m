@@ -10,7 +10,7 @@
 
 @implementation ARCSingleInstance
 
-static ARCSingleInstance* _instance = nil;
+static ARCSingleInstance *_instance = nil;
 
 + (instancetype)allocWithZone:(struct _NSZone *)zone {
     static dispatch_once_t onceToken;
@@ -28,18 +28,16 @@ static ARCSingleInstance* _instance = nil;
     return _instance;
 }
 
-- (id)copyWithZone:(NSZone *)zone{
-    return  _instance;
+- (id)copyWithZone:(NSZone *)zone {
+    return _instance;
 }
 
-- (id)mutableCopyWithZone:(NSZone *)zone{
+- (id)mutableCopyWithZone:(NSZone *)zone {
     return _instance;
 }
 
 + (instancetype)sharedARCSingleInstance {
     return [[self alloc] init];
 }
-
-
 
 @end

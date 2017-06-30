@@ -10,7 +10,7 @@
 
 @implementation MRCSingleInstance
 
-static MRCSingleInstance* _instance = nil;
+static MRCSingleInstance *_instance = nil;
 
 /**
  alloc方法内部会调用allocWithZone
@@ -22,7 +22,7 @@ static MRCSingleInstance* _instance = nil;
 + (instancetype)allocWithZone:(struct _NSZone *)zone {
     if (_instance == nil) {
         static dispatch_once_t onceToken;
-        dispatch_once(&onceToken, ^{    // 安全(这个代码只会被调用一次)
+        dispatch_once(&onceToken, ^{ // 安全(这个代码只会被调用一次)
             _instance = [super allocWithZone:zone];
         });
     }
