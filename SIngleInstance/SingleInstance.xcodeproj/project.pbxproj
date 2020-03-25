@@ -135,7 +135,7 @@
 				TargetAttributes = {
 					6DF0ED3D1EBB21F7002D5373 = {
 						CreatedOnToolsVersion = 8.3.2;
-						DevelopmentTeam = RUDNP34A78;
+						DevelopmentTeam = 65YQSH88XX;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -145,6 +145,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -304,7 +305,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_OBJC_ARC = YES;
-				DEVELOPMENT_TEAM = RUDNP34A78;
+				DEVELOPMENT_TEAM = 65YQSH88XX;
 				INFOPLIST_FILE = SingleInstance/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -318,7 +319,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_OBJC_ARC = YES;
-				DEVELOPMENT_TEAM = RUDNP34A78;
+				DEVELOPMENT_TEAM = 65YQSH88XX;
 				INFOPLIST_FILE = SingleInstance/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
